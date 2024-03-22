@@ -5,7 +5,7 @@ abstract class SplashRepository {
 class SplashRepositoryImp extends SplashRepository {
   @override
   Future<void> loadData() async {
-    await Future.delayed(const Duration(seconds: 1));
+    await Future.delayed(const Duration(seconds: 2));
     return;
   }
 }
